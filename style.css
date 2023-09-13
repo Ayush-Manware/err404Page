@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather&family=Montserrat:wght@100&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  background-image: url("./assets/luke-chesser-IGtutkXikuc-unsplash.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.innerContainer {
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.184);
+  width: 60vw;
+  height: 50vh;
+  position: absolute;
+  top: 12vw;
+  left: 20vw;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.number {
+  /* border: 1px solid red; */
+  color: white;
+  font-family: "Tilt Prism", cursive;
+  transition: all 0.2s linear;
+}
+
+.fourOne {
+  font-size: 12vw;
+  transition: all 0.2s linear;
+}
+
+.fourOne:hover{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.641);
+    color: red;
+}
+
+.zero {
+  font-size: 10vw;
+  transition: all 0.2s linear;
+}
+
+.zero:hover{
+    color: red;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.641);
+}
+
+.fourTwo {
+  font-size: 12vw;
+  transition: all 0.2s linear;
+}
+
+.fourTwo:hover{
+    color: red;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.641);
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.back{
+    width: 2vw; 
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+     font-size: 10vw;
+    }
+
+    .container{
+        padding-top: 30vw; 
+    }
+
+    .innerContainer{
+        width: 90%;
+        position: static;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icon{
+        width: 10vw;
+    }
+}
